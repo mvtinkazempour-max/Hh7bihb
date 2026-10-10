@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه قطعات کامپیوتر</title>
+    <link rel="stylesheet" href="gpt.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="logo" href="#">فروشگاه من</a>
+            <form class="search" role="search" onsubmit="event.preventDefault()">
+                <input type="search" placeholder="جست‌وجوی محصولات..." aria-label="جست‌وجوی محصولات">
+                <button type="submit" aria-label="جست‌وجو">⌕</button>
+            </form>
+            <button class="menu-toggle" type="button" aria-label="نمایش منو" aria-expanded="false">☰</button>
+        </div>
+        <nav class="nav" id="mainNav">
+            <a href="#">صفحه اصلی</a>
+            <a href="#products">محصولات</a>
+            <a href="#about">درباره ما</a>
+        </nav>
+    </header>
+
+    <main class="page">
+        <section class="hero">
+            <div>
+                <p class="eyebrow">پیشنهادهای فروشگاه</p>
+                <h1>قطعات و تجهیزات کامپیوتری</h1>
+                <p>محصولات را بررسی کن و گزینه مناسب خودت را پیدا کن.</p>
+            </div>
+        </section>
+
+        <section id="products" class="products-section">
+            <div class="section-heading">
+                <h2>محصولات</h2>
+                <span>برای مشاهده جزئیات، روی محصول بزن</span>
+            </div>
+            <div class="container">
+                <article class="product-card">
+                    <img src="5060.jpg" class="img" alt="کارت گرافیک" loading="lazy">
+                    <div class="product-info"><h3>کارت گرافیک RTX 5060</h3><p>مناسب برای بازی و کارهای گرافیکی</p><a href="#">مشاهده محصول</a></div>
+                </article>
+                <article class="product-card">
+                    <img src="rtx6000pro.jpeg" class="img" alt="کارت گرافیک حرفه‌ای" loading="lazy">
+                    <div class="product-info"><h3>کارت گرافیک حرفه‌ای</h3><p>برای کارهای حرفه‌ای و پردازش سنگین</p><a href="#">مشاهده محصول</a></div>
+                </article>
+                <article class="product-card">
+                    <img src="9100pro.jpg" class="img" alt="محصول سخت‌افزاری" loading="lazy">
+                    <div class="product-info"><h3>محصول سخت‌افزاری ۳</h3><p>جزئیات محصول را اینجا وارد کن.</p><a href="#">مشاهده محصول</a></div>
+                </article>
+                <article class="product-card">
+                    <img src="khar.webp" class="img" alt="محصول چهارم" loading="lazy">
+                    <div class="product-info"><h3>محصول چهارم</h3><p>جزئیات محصول را اینجا وارد کن.</p><a href="#">مشاهده محصول</a></div>
+                </article>
+                <article class="product-card">
+                    <img src="HP-Server-DL-380-GEN11-7.jpg" class="img" alt="سرور HP" loading="lazy">
+                    <div class="product-info"><h3>سرور HP</h3><p>مناسب برای محیط‌های سروری و سازمانی</p><a href="#">مشاهده محصول</a></div>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>درباره فروشگاه</h2>
+            <p>متن معرفی فروشگاهت را اینجا بنویس.</p>
+        </section>
+    </main>
+
+    <footer class="footer">© فروشگاه من</footer>
+    <script src="gpt.js"></script>
+</body>
+</html>
